@@ -1,0 +1,15 @@
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/bin/Debug/net5.0/JogoMario.deps.json
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/bin/Debug/net5.0/JogoMario.runtimeconfig.json
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/bin/Debug/net5.0/JogoMario.runtimeconfig.dev.json
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/bin/Debug/net5.0/JogoMario.dll
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/bin/Debug/net5.0/ref/JogoMario.dll
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/bin/Debug/net5.0/JogoMario.pdb
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/obj/Debug/net5.0/JogoMario.csprojAssemblyReference.cache
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/obj/Debug/net5.0/JogoMario.GeneratedMSBuildEditorConfig.editorconfig
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/obj/Debug/net5.0/JogoMario.AssemblyInfoInputs.cache
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/obj/Debug/net5.0/JogoMario.AssemblyInfo.cs
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/obj/Debug/net5.0/JogoMario.csproj.CoreCompileInputs.cache
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/obj/Debug/net5.0/JogoMario.dll
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/obj/Debug/net5.0/ref/JogoMario.dll
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/obj/Debug/net5.0/JogoMario.pdb
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/JogoMario/obj/Debug/net5.0/JogoMario.genruntimeconfig.cache
