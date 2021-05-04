@@ -1,0 +1,15 @@
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/bin/Debug/net5.0/hospital.deps.json
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/bin/Debug/net5.0/hospital.runtimeconfig.json
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/bin/Debug/net5.0/hospital.runtimeconfig.dev.json
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/bin/Debug/net5.0/hospital.dll
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/bin/Debug/net5.0/ref/hospital.dll
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/bin/Debug/net5.0/hospital.pdb
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/obj/Debug/net5.0/hospital.csprojAssemblyReference.cache
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/obj/Debug/net5.0/hospital.GeneratedMSBuildEditorConfig.editorconfig
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/obj/Debug/net5.0/hospital.AssemblyInfoInputs.cache
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/obj/Debug/net5.0/hospital.AssemblyInfo.cs
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/obj/Debug/net5.0/hospital.csproj.CoreCompileInputs.cache
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/obj/Debug/net5.0/hospital.dll
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/obj/Debug/net5.0/ref/hospital.dll
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/obj/Debug/net5.0/hospital.pdb
+/Users/warlei/Arquivos/projetos/loovi/POO_CS/hospital/obj/Debug/net5.0/hospital.genruntimeconfig.cache
