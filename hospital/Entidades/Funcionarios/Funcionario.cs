@@ -8,7 +8,7 @@ namespace Hospital.Entidades.Funcionarios
 
         public string Matricula;
 
-        public Funcionario(string dataAdimissao, string matricula, string nome, Endereco endereco) : base(nome, endereco)
+        public Funcionario(string dataAdimissao, string matricula, string nome, string sexo, string dataDeNascimento,  Endereco endereco) : base(nome, sexo, dataDeNascimento, endereco)
         {
             DataAdimissao = dataAdimissao;
             Matricula = matricula;

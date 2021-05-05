@@ -4,7 +4,7 @@ namespace Hospital.Entidades.Funcionarios.Medicos
     {
         public string Crm;
 
-        public Medico(string crm, string dataDeAdmissao, string matricula, string nome, Endereco endereco) : base (dataDeAdmissao, matricula, nome, endereco)
+        public Medico(string crm, string dataDeAdmissao, string matricula, string nome, string sexo,string dataDeNascimento, Endereco endereco) : base (dataDeAdmissao, matricula, nome, sexo, dataDeNascimento, endereco)
         {
             Crm = crm;
         }

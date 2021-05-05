@@ -4,7 +4,7 @@ namespace Hospital.Entidades.Pacientes
     {
         public string DataInternacao;
 
-        public Paciente(string nome, Endereco endereco, string dataInternacao) : base(nome, endereco)
+        public Paciente(string nome, string sexo, string dataDeNascimento, Endereco endereco, string dataInternacao) : base(nome, sexo, dataDeNascimento, endereco)
         {
 
             DataInternacao = dataInternacao;

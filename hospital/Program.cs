@@ -6,30 +6,137 @@
     using Entidades.Funcionarios;
     using Entidades.Funcionarios.Medicos;
     using Entidades.Funcionarios.Administrativo;
+    using Entidades.Procedimentos.Medicos;
+    using System.Collections.Generic;
+
     class Program
     {
+        public static List<Paciente> pacientes = new List<Paciente>();
+
+        public static List<Medico> medicos = new List<Medico>();
+
         static void Main(string[] args)
-        {
+        {   
             
-            Endereco enderecoJose = new Endereco("Alameda dos anjos", "312-b");
-            Endereco enderecoJosias = new Endereco("Alameda dos anjos", "2013");
-            Paciente jose = new Paciente ("Jose de Arimateia", enderecoJose, "28/03/2019");
-            Anestesista josias = new Anestesista("3291-5", "29/08/1998", "MA-48345", "Boneco Josias", enderecoJosias);
+            Console.WriteLine();
+            Console.WriteLine("Por Favor, Informe o serviço desejado");
+            Console.WriteLine("1- Cadastrar paciente");
+            Console.WriteLine("2- Cadastrar medico");
+            Console.WriteLine("3- Marcar consulta");
+            Console.WriteLine("4- Pesquisar Cliente");
+            Console.WriteLine("5- Pesquisar medico");
+    
+            var escolha = Console.ReadLine().ToString();
+            
+            switch(escolha)
+            {
+                case "1":
+                    Console.WriteLine();
+                    Console.WriteLine("Informe o nome completo.");
+                    var nome = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe o genero.");
+                    var sexo = Console.ReadLine();
+                    
+                    Console.WriteLine();
+                    Console.WriteLine("Informe a data de nascimento");
+                    var dataDeNascimento = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Agora o endereço");
+                    Console.WriteLine("Informe o nome da rua");
+                    var logradouro = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe o numero da residencia");
+                    var numeroCasa = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe o bairro");
+                    var bairro = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe a cidade");
+                    var cidade = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe o estado");
+                    var estado = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe o dia da internação");
+                    var dataInternacao = Console.ReadLine();
 
 
-            Console.WriteLine();
-            Console.WriteLine(jose.Nome);
-            Console.WriteLine(jose.Endereco.Logradouro);
-            Console.WriteLine(jose.Endereco.Numero);
-            Console.WriteLine(jose.DataInternacao);
-            Console.WriteLine();
-            Console.WriteLine(josias.Nome);
-            Console.WriteLine(josias.Endereco.Logradouro);
-            Console.WriteLine(josias.Endereco.Numero);
-            Console.WriteLine(josias.Matricula);
-            Console.WriteLine(josias.DataAdimissao);
-            Console.WriteLine(josias.Crm);
-            
+                    pacientes.Add(new Paciente(nome, sexo, dataDeNascimento, new Endereco(logradouro, numeroCasa, bairro, cidade, estado), dataInternacao));
+
+                    break;
+
+                case "2":
+                    Console.WriteLine();
+                    Console.WriteLine("Informe o nome completo.");
+                    var nomeMedico = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe o genero.");
+                    var sexoMedico = Console.ReadLine();
+                    
+                    Console.WriteLine();
+                    Console.WriteLine("Informe a data de nascimento");
+                    var dataDeNascimentoMedico = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe o CRM");
+                    var crm = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe a matricula");
+                    var matricula = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe a data de admissão");
+                    var dataDeAdmissao = Console.ReadLine();
+
+
+                    Console.WriteLine();
+                    Console.WriteLine("Agora o endereço");
+                    Console.WriteLine("Informe o nome da rua");
+                    var logradouroMedico = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe o numero da residencia");
+                    var numeroCasaMedico = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe o bairro");
+                    var bairroMedico = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe a cidade");
+                    var cidadeMedico = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Informe o estado");
+                    var estadoMedico = Console.ReadLine();
+
+                    medicos.Add(new Medico(crm, dataDeAdmissao, matricula, nomeMedico, sexoMedico, dataDeNascimentoMedico,new Endereco(logradouroMedico, numeroCasaMedico, bairroMedico, cidadeMedico, estadoMedico)));
+
+                    break;
+
+                case "3":
+                    foreach (var medico in medicos)
+                    {   
+                        int i = 0;
+                        Console.WriteLine($"Nome: {medicos[i].Nome}, CRM: {medicos[i].Crm}" );
+                        i++;
+                    } 
+                    break;   
+                default:
+                    Console.WriteLine("erro");
+                    break;
+                }  
+           
         }
     }
 }
