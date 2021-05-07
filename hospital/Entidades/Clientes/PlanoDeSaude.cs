@@ -1,20 +1,24 @@
 namespace Hospital.Entidades.Clientes
 {
-    public class PlanoDeSaude
-    {
-        
-    }
-
     public class Titular
     {
-        Titular()
+
+      
+
+        public bool PossuiPlano;
+
+        
+
+
+        public Titular(bool possuiPlano)
         {
             
+           
+
+            PossuiPlano = possuiPlano;
+
         }
-    }
+     
+    }   
 
-    public class Dependente
-    {
-
-    }
 }

@@ -8,13 +8,16 @@ namespace Hospital.Entidades.Procedimentos.Medico
 
         public double ValorConsulta;
 
-        Medico medico;
+        string Medico;
 
-        PlanoDeSaude PlanoDeSaude;
+     
         
 
-        public Consulta(Especialidades especialidade, double ValorConsulta, Medico medico, PlanoDeSaude planoDeSaude )
+        public Consulta(Especialidades especialidade, double valorConsulta, string medico )
         {
+            Especialidade = especialidade;
+            ValorConsulta = valorConsulta;
+            Medico = medico;
             
         }
     }
